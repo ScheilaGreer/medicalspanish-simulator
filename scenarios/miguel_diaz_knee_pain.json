@@ -1,0 +1,26 @@
+{
+  "name": "Miguel Diaz",
+  "condition": "knee_pain",
+  "start": "Siento que algo no está bien... tengo rodilla.",
+  "responses": [
+    {
+      "keywords": [
+        "rodilla"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la hinchada."
+    },
+    {
+      "keywords": [
+        "caminar"
+      ],
+      "reply": "Mi caminar me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Knee_pain",
+    "Stomach pain",
+    "Back pain"
+  ],
+  "answer": "Knee_pain"
+}

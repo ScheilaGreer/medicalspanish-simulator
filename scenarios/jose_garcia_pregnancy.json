@@ -1,0 +1,26 @@
+{
+  "name": "Jose Garcia",
+  "condition": "pregnancy",
+  "start": "Siento que algo no está bien... tengo bebe.",
+  "responses": [
+    {
+      "keywords": [
+        "embarazada"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la movimiento."
+    },
+    {
+      "keywords": [
+        "bebe"
+      ],
+      "reply": "Mi bebe me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Headache",
+    "Fever",
+    "Pregnancy"
+  ],
+  "answer": "Pregnancy"
+}

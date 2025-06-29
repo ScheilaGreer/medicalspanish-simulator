@@ -1,0 +1,26 @@
+{
+  "name": "Laura Sanchez",
+  "condition": "cold",
+  "start": "Siento que algo no está bien... tengo tos.",
+  "responses": [
+    {
+      "keywords": [
+        "estornudo"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la resfriado."
+    },
+    {
+      "keywords": [
+        "nariz"
+      ],
+      "reply": "Mi estornudo me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Headache",
+    "Cold",
+    "Back pain"
+  ],
+  "answer": "Cold"
+}

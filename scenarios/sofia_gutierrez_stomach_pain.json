@@ -1,0 +1,26 @@
+{
+  "name": "Sofia Gutierrez",
+  "condition": "stomach_pain",
+  "start": "Siento que algo no está bien... tengo vomito.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor estómago"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor estómago."
+    },
+    {
+      "keywords": [
+        "nausea"
+      ],
+      "reply": "Mi dolor estómago me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Nausea",
+    "Stomach_pain",
+    "Cough"
+  ],
+  "answer": "Stomach_pain"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Miguel Diaz",
+  "condition": "miscarriage",
+  "start": "Siento que algo no está bien... tengo sangrado.",
+  "responses": [
+    {
+      "keywords": [
+        "sangrado"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la sangrado."
+    },
+    {
+      "keywords": [
+        "vientre"
+      ],
+      "reply": "Mi sangrado me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Nausea",
+    "Cough",
+    "Miscarriage"
+  ],
+  "answer": "Miscarriage"
+}

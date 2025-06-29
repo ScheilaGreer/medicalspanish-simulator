@@ -1,0 +1,26 @@
+{
+  "name": "Fernando Ramirez",
+  "condition": "headache",
+  "start": "Siento que algo no está bien... tengo migraña.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor cabeza"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor cabeza."
+    },
+    {
+      "keywords": [
+        "migraña"
+      ],
+      "reply": "Mi migraña me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Headache",
+    "Stomach pain",
+    "Fever"
+  ],
+  "answer": "Headache"
+}

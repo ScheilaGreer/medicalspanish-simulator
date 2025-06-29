@@ -1,0 +1,26 @@
+{
+  "name": "Miguel Diaz",
+  "condition": "chest_pain",
+  "start": "Siento que algo no está bien... tengo corazón.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor pecho"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor pecho."
+    },
+    {
+      "keywords": [
+        "presion"
+      ],
+      "reply": "Mi corazón me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Cough",
+    "Nausea",
+    "Chest_pain"
+  ],
+  "answer": "Chest_pain"
+}

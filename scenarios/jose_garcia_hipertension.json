@@ -1,0 +1,26 @@
+{
+  "name": "Jose Garcia",
+  "condition": "hipertension",
+  "start": "Siento que algo no está bien... tengo dolor cabeza.",
+  "responses": [
+    {
+      "keywords": [
+        "presion"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la mareo."
+    },
+    {
+      "keywords": [
+        "mareo"
+      ],
+      "reply": "Mi mareo me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Hipertension",
+    "Back pain",
+    "Stomach pain"
+  ],
+  "answer": "Hipertension"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Julio Martinez",
+  "condition": "stomach_pain",
+  "start": "Siento que algo no está bien... tengo dolor estómago.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor estómago"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor estómago."
+    },
+    {
+      "keywords": [
+        "nausea"
+      ],
+      "reply": "Mi nausea me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Dizziness",
+    "Stomach_pain",
+    "Headache"
+  ],
+  "answer": "Stomach_pain"
+}

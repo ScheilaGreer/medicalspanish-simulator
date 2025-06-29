@@ -1,0 +1,26 @@
+{
+  "name": "Jose Garcia",
+  "condition": "diabetes",
+  "start": "Siento que algo no está bien... tengo orina.",
+  "responses": [
+    {
+      "keywords": [
+        "azúcar"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la orina."
+    },
+    {
+      "keywords": [
+        "sed"
+      ],
+      "reply": "Mi azúcar me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Nausea",
+    "Diabetes",
+    "Stomach pain"
+  ],
+  "answer": "Diabetes"
+}

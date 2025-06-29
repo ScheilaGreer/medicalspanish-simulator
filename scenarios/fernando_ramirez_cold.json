@@ -1,0 +1,26 @@
+{
+  "name": "Fernando Ramirez",
+  "condition": "cold",
+  "start": "Siento que algo no está bien... tengo resfriado.",
+  "responses": [
+    {
+      "keywords": [
+        "estornudo"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la tos."
+    },
+    {
+      "keywords": [
+        "nariz"
+      ],
+      "reply": "Mi resfriado me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Cold",
+    "Back pain",
+    "Dizziness"
+  ],
+  "answer": "Cold"
+}

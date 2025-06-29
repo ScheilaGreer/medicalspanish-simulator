@@ -1,0 +1,26 @@
+{
+  "name": "Fernando Ramirez",
+  "condition": "pregnancy",
+  "start": "Siento que algo no está bien... tengo embarazada.",
+  "responses": [
+    {
+      "keywords": [
+        "embarazada"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor espalda."
+    },
+    {
+      "keywords": [
+        "bebe"
+      ],
+      "reply": "Mi bebe me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Pregnancy",
+    "Stomach pain",
+    "Nausea"
+  ],
+  "answer": "Pregnancy"
+}

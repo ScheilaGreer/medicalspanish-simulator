@@ -1,0 +1,26 @@
+{
+  "name": "Ana Morales",
+  "condition": "knee_pain",
+  "start": "Siento que algo no está bien... tengo hinchada.",
+  "responses": [
+    {
+      "keywords": [
+        "rodilla"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la rodilla."
+    },
+    {
+      "keywords": [
+        "caminar"
+      ],
+      "reply": "Mi hinchada me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Knee_pain",
+    "Headache",
+    "Fever"
+  ],
+  "answer": "Knee_pain"
+}

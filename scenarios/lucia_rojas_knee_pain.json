@@ -1,0 +1,26 @@
+{
+  "name": "Lucia Rojas",
+  "condition": "knee_pain",
+  "start": "Siento que algo no está bien... tengo rodilla.",
+  "responses": [
+    {
+      "keywords": [
+        "rodilla"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la caminar."
+    },
+    {
+      "keywords": [
+        "caminar"
+      ],
+      "reply": "Mi hinchada me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Dizziness",
+    "Nausea",
+    "Knee_pain"
+  ],
+  "answer": "Knee_pain"
+}

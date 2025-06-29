@@ -1,0 +1,26 @@
+{
+  "name": "Carlos Mendoza",
+  "condition": "knee_pain",
+  "start": "Siento que algo no está bien... tengo caminar.",
+  "responses": [
+    {
+      "keywords": [
+        "rodilla"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la caminar."
+    },
+    {
+      "keywords": [
+        "caminar"
+      ],
+      "reply": "Mi rodilla me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Fever",
+    "Knee_pain",
+    "Headache"
+  ],
+  "answer": "Knee_pain"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Carlos Mendoza",
+  "condition": "cold",
+  "start": "Siento que algo no está bien... tengo nariz.",
+  "responses": [
+    {
+      "keywords": [
+        "estornudo"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la nariz."
+    },
+    {
+      "keywords": [
+        "nariz"
+      ],
+      "reply": "Mi estornudo me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Cough",
+    "Dizziness",
+    "Cold"
+  ],
+  "answer": "Cold"
+}

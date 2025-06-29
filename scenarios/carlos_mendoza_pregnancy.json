@@ -1,0 +1,26 @@
+{
+  "name": "Carlos Mendoza",
+  "condition": "pregnancy",
+  "start": "Siento que algo no está bien... tengo movimiento.",
+  "responses": [
+    {
+      "keywords": [
+        "embarazada"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor espalda."
+    },
+    {
+      "keywords": [
+        "bebe"
+      ],
+      "reply": "Mi dolor espalda me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Stomach pain",
+    "Pregnancy",
+    "Fever"
+  ],
+  "answer": "Pregnancy"
+}

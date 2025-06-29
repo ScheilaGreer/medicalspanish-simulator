@@ -1,0 +1,26 @@
+{
+  "name": "Sofia Gutierrez",
+  "condition": "headache",
+  "start": "Siento que algo no está bien... tengo dolor cabeza.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor cabeza"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor cabeza."
+    },
+    {
+      "keywords": [
+        "migraña"
+      ],
+      "reply": "Mi dolor cabeza me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Cough",
+    "Headache",
+    "Dizziness"
+  ],
+  "answer": "Headache"
+}

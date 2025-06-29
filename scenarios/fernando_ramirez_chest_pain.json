@@ -1,0 +1,26 @@
+{
+  "name": "Fernando Ramirez",
+  "condition": "chest_pain",
+  "start": "Siento que algo no está bien... tengo dolor pecho.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor pecho"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la corazón."
+    },
+    {
+      "keywords": [
+        "presion"
+      ],
+      "reply": "Mi presion me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Cough",
+    "Chest_pain",
+    "Fever"
+  ],
+  "answer": "Chest_pain"
+}

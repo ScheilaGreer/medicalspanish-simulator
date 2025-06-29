@@ -1,0 +1,26 @@
+{
+  "name": "Maria Lopez",
+  "condition": "diabetes",
+  "start": "Siento que algo no está bien... tengo azúcar.",
+  "responses": [
+    {
+      "keywords": [
+        "azúcar"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la azúcar."
+    },
+    {
+      "keywords": [
+        "sed"
+      ],
+      "reply": "Mi sed me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Stomach pain",
+    "Diabetes",
+    "Nausea"
+  ],
+  "answer": "Diabetes"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Ana Morales",
+  "age": 34,
+  "condition": "asthma",
+  "start": "Siento que algo no está bien... tengo dificultad para respirar.",
+  "responses": [
+    {
+      "keywords": [
+        "nombre",
+        "llama",
+        "quién eres"
+      ],
+      "reply": "Me llamo Ana Morales."
+    },
+    {
+      "keywords": [
+        "edad",
+        "años"
+      ],
+      "reply": "Tengo 34 años."
+    },
+    {
+      "keywords": [
+        "problema",
+        "pasa",
+        "sientes",
+        "síntomas"
+      ],
+      "reply": "Tengo dificultad para respirar y siento opresión en el pecho."
+    },
+    {
+      "keywords": [
+        "alergias"
+      ],
+      "reply": "Soy alérgica al polvo y al polen."
+    },
+    {
+      "keywords": [
+        "asma"
+      ],
+      "reply": "Sí, tengo asma desde la infancia."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Fever",
+    "Asthma",
+    "Nausea"
+  ],
+  "answer": "Asthma"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Daniel Fernandez",
+  "condition": "asthma",
+  "start": "Siento que algo no está bien... tengo ahogo.",
+  "responses": [
+    {
+      "keywords": [
+        "respirar"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la ahogo."
+    },
+    {
+      "keywords": [
+        "ahogo"
+      ],
+      "reply": "Mi ahogo me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Asthma",
+    "Nausea",
+    "Back pain"
+  ],
+  "answer": "Asthma"
+}

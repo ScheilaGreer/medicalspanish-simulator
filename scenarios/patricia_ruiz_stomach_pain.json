@@ -1,0 +1,26 @@
+{
+  "name": "Patricia Ruiz",
+  "condition": "stomach_pain",
+  "start": "Siento que algo no está bien... tengo nausea.",
+  "responses": [
+    {
+      "keywords": [
+        "dolor estómago"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la dolor estómago."
+    },
+    {
+      "keywords": [
+        "nausea"
+      ],
+      "reply": "Mi vomito me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Stomach_pain",
+    "Headache",
+    "Nausea"
+  ],
+  "answer": "Stomach_pain"
+}

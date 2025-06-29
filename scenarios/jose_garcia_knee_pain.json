@@ -1,0 +1,26 @@
+{
+  "name": "Jose Garcia",
+  "condition": "knee_pain",
+  "start": "Siento que algo no está bien... tengo hinchada.",
+  "responses": [
+    {
+      "keywords": [
+        "rodilla"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la hinchada."
+    },
+    {
+      "keywords": [
+        "caminar"
+      ],
+      "reply": "Mi hinchada me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Back pain",
+    "Knee_pain",
+    "Stomach pain"
+  ],
+  "answer": "Knee_pain"
+}

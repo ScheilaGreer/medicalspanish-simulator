@@ -1,0 +1,26 @@
+{
+  "name": "Daniel Fernandez",
+  "condition": "miscarriage",
+  "start": "Siento que algo no está bien... tengo vientre.",
+  "responses": [
+    {
+      "keywords": [
+        "sangrado"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la perder bebé."
+    },
+    {
+      "keywords": [
+        "vientre"
+      ],
+      "reply": "Mi sangrado me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Dizziness",
+    "Miscarriage",
+    "Headache"
+  ],
+  "answer": "Miscarriage"
+}

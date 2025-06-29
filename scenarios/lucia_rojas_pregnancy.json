@@ -1,0 +1,26 @@
+{
+  "name": "Lucia Rojas",
+  "condition": "pregnancy",
+  "start": "Siento que algo no está bien... tengo movimiento.",
+  "responses": [
+    {
+      "keywords": [
+        "embarazada"
+      ],
+      "reply": "Desde ayer tengo un malestar raro, especialmente en el/la bebe."
+    },
+    {
+      "keywords": [
+        "bebe"
+      ],
+      "reply": "Mi bebe me preocupa mucho, no es normal para mí."
+    }
+  ],
+  "question": "What is the main concern?",
+  "choices": [
+    "Back pain",
+    "Pregnancy",
+    "Nausea"
+  ],
+  "answer": "Pregnancy"
+}
